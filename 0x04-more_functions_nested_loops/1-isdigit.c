@@ -1,11 +1,7 @@
 #include "main.h"
-/**
-* prints the last digit of a num
-* input number as an int
-*
-* is digit
-*/
-
+/**                                        * _isupper - this functon checks for upper casem
+ * @c : the charactet to b checkedt        *                                         * Return: return 1 if char is upper if not return 0 t
+ */
 
 int _isdigit(int c)
 

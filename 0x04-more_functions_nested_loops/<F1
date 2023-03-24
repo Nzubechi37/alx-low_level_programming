@@ -4,7 +4,7 @@
  * _isupper - this functon checks for upper casem
  * @c : the charactet to b checkedt
  *
- * Return: return 1 if char is upper if not return 0 t
+ * return last digit
  */
 
 int _isupper(int c)

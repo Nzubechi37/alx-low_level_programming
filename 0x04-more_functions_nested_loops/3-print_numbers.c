@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * prints the last digit of a num
 * input number as an int
@@ -8,10 +9,9 @@
 
 void print_numbers(void)
 {
-        char c;
-
-        for (c = 'o'; c <= '9'; c++)
-        {
-        _putchar('\n');
-        }
+	char c;
+	for (c ='o'; c<= '9'; c++)
+	{
+	_putchar('\n');
+	}
 }
