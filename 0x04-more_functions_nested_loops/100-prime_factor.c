@@ -1,22 +1,24 @@
-#inlude <stdio.h>
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - absolute value
- * @i @n: the number to be printed
- * Return: return 0
+ * main - prints largest prime factor.
+ * Return: Always 0.
  */
-
 
 int main(void)
 {
-	unsigned long int i, n = 612852475143;
-	for (i = 3; i < 782849; i = i + 2)
+	long int n, fp;
+
+	n = 612852475143;
+	for (fp = 2; fp <= n; fp++)
 	{
-		while ((n % i == 0) && (n != i))
-			n = n / i;
+		if (n % fp == 0)
+		{
+			n /= fp;
+			fp--;
+		}
+
 	}
-	printf("%1u\n", n);
+	printf("%ld\n", fp);
 	return (0);
 }
-

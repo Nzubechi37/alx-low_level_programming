@@ -1,17 +1,16 @@
 #include "main.h"
+
 /**
-* prints the last digit of a num
-* input number as an int
-*
-* print numbers
-*/
-
-
+ * print_numbers - prints numbers between 0 to 9.
+ * Return: no return.
+ */
 void print_numbers(void)
 {
-	char c;
-	for (c ='o'; c<= '9'; c++)
+	int ch;
+
+	for (ch = 48; ch < 58; ch++)
 	{
-	_putchar('\n');
+		_putchar(ch);
 	}
+	_putchar('\n');
 }
